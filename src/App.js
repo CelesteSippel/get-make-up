@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import React, { useState, useEffect } from 'react'
+import MakeUp from './components/MakeUp'
+import axios from 'axios'
 
 const App = () => {
-  return <HelloWorld />
+  return <MakeUp />
 }
 
 export default App
