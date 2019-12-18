@@ -19,8 +19,8 @@ const MakeUp = () => {
           return (
             <ul>
               <li>key={item.id}</li>
-              <li>name={item.Name}</li>
-              <li>sku={item.Sku}</li>
+              <li>name={item.name}</li>
+              <li>sku={item.sku}</li>
               <li> dateOrdered={item.dateOrdered}</li>
               <li>price={item.price}</li>
               <li>numberInStock={item.numberInStock}</li>
